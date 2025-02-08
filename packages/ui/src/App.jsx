@@ -21,9 +21,9 @@ const App = () => {
         <StyledEngineProvider injectFirst>
             <ThemeProvider theme={themes(customization)}>
                 <CssBaseline />
-                <NavigationScroll>
+                {/* <NavigationScroll> */}
                     <Routes />
-                </NavigationScroll>
+                {/* </NavigationScroll> */}
             </ThemeProvider>
         </StyledEngineProvider>
     )
